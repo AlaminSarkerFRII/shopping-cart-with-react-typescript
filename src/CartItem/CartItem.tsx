@@ -4,9 +4,7 @@ import { cartItemType } from "../App"
 // styles
 import { Wrapper } from "./CartItem.styles"
 
-
 // received props 
-
 type Props = {
     item: cartItemType,
     addToCart: (clickedItem: cartItemType) => void,
@@ -39,10 +37,9 @@ const CartItem: React.FC<Props> = ({ item, addToCart, removeFromCart }) => (
                     +
                 </Button>
             </div>
-
         </div>
+        <img src={item.image} alt="item.title"/>
     </Wrapper>
-
 )
 
 
