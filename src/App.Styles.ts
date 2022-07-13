@@ -1,3 +1,3 @@
-import Styled from "styled-components"
+import styled from "styled-components"
 
-export const Wrapper = Styled.div``
+export const Wrapper = styled.div``
