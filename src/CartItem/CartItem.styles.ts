@@ -4,12 +4,14 @@ export const Wrapper = styled.div`
 
 display: flex;
 justify-content: space-between;
+align-items:center;
 border: 1px solid lightblue;
-paddign-bottom : 20px;
+padding-bottom : 20px;
 
 
 div{
     flex: 1;
+    background_color:blue;
 }
 
 .information, .buttons{
@@ -18,9 +20,12 @@ div{
 }
 
 img{
-    max-width:80px;
-    margin-left:40px;
+    max-width:90px;
+    max-height:90px;
+    border-radius: 50%;
+    margin-left:20px;
     object-fit:cover;
+
 }
 
 `;
